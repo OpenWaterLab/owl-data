@@ -4,7 +4,7 @@
 
 <h1 align="center">owl-data</h1>
 <p align="center">
-  Data analysis tools for water systems
+  Data analysis tools for water system modelling and analysis
 </p>
 
 -----
