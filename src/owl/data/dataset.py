@@ -1865,7 +1865,7 @@ class Dataset:
         """
         Tag subsequent 'double' values (near-constant segments) in a series.
 
-        A point is tagged as 'filtered' when |x[t] - x[t-1]| < bound
+        A point is tagged as 'filtered' when abs(x[t] - x[t-1]) < bound
         (i.e., the increment is smaller than the threshold). Outside the optional
         'arange', data is left untouched.
 
@@ -3818,7 +3818,7 @@ class Dataset:
         ) -> Tuple[float, float]:
         """
         Compare average ratios (data_1/data_2) over multiple non-overlapping
-        windows and return the most reliable one (min relative std = std/|mean|).
+        windows and return the most reliable one (min relative std = std/mean).
 
         Parameters
         ----------

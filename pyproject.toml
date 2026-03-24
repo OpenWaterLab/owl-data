@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "owl-data"
+name = "openwaterlab-data"
 version = "0.1.0"
 description = "Data analysis tools for water system modelling and analysis."
 readme = "README.md"
@@ -26,11 +26,14 @@ classifiers = [
 	"Development Status :: 3 - Alpha",
 	"License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
     "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Operating System :: OS Independent",
 ]
 
 [project.optional-dependencies]
-dev = ["pytest>=7"]
+dev = ["pytest>=7", "build", "twine"]
 
 [project.urls]
 Homepage = "https://github.com/OpenWaterLab/owl-data"

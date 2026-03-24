@@ -10,6 +10,6 @@ def test_package_import():
 
 
 def test_class_imports():
-	assert Dataset is not None
+    assert Dataset is not None
     assert SensorDataset is not None
     assert LabDataset is not None
