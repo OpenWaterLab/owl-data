@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use owl-data in academic work, please cite it as follows."
+title: "owl-data: Data analysis tools for water system modelling and analysis"
+type: software
+authors:
+	- name: OpenWaterLab maintainers
+	  affiliation: BIOMATH, Ghent University
+repository-code: "https://github.com/OpenWaterLab/owl-data"
+license: GPL-3.0-only
+version: 0.1.0

@@ -1,0 +1,27 @@
+# Ignore compiled python files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+
+# Ignore distribution and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+
+
+# Ignore virtual environments
+venv/
+env/
+ENV/
+.env/
+.venv/
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+
+# Ignore log files
+*.log
